@@ -1,0 +1,30 @@
+.metricas {
+    display: flex;
+    justify-content: space-around;
+    gap: 5em;
+    padding: 4em;
+}
+
+.metricas-grupo {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.metricas-titulo {
+    color: var(--cor-destaque);
+    font-weight: 600;
+    font-size: 3em;
+}
+
+.metricas-subtitulo {
+    color: var(--cor-titulo);
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.metricas-texto {
+    color: var(--cor-texto);
+    font-weight: 400;
+    font-size: 1em;
+}

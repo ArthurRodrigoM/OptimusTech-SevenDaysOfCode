@@ -1,0 +1,69 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+.navbar-imagem {
+    padding: 1em;
+}
+
+.lista-menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    padding: 1em;
+}
+
+.lista-menu-item {
+    font-family: var(--fonte-principal);
+    color: var(--cor-texto);
+    font-weight: 500;
+    font-size: 16px;
+    list-style: none;
+}
+
+.lista-menu-item:hover {
+    color: var(--cor-destaque);
+}
+
+.navegacao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    width: 207px;
+    height: 44px;  
+}
+
+.botoes-botao1 {
+    font-family: var(--fonte-principal);
+    color: var(--cor-texto);
+    font-weight: 500;
+    font-size: 16px;
+    background: var(--cor-fundo);
+    border-radius: 7px;
+    padding: 0.3em 1em 0.3em 1em;
+    border-color: var(--cor-fundo);
+}
+
+.botoes-botao1:hover {
+    background: var(--cor-destaque);
+    border-color: var(--cor-destaque);
+    color: var(--cor-fundo);
+}
+
+.botoes-botao2 {
+    font-family: var(--fonte-principal);
+    color: var(--cor-fundo);
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 7px;
+    background: var(--cor-destaque);
+    padding: 0.3em 1em 0.3em 1em;
+    border-color: var(--cor-destaque);
+}
+
+.botoes-botao2:hover {
+    background: var(--cor-fundo);
+    color: var(--cor-destaque);
+}

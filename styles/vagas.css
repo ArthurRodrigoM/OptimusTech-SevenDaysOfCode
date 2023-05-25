@@ -1,0 +1,85 @@
+.vagas {
+    margin-bottom: 3em;
+}
+/* vagas talentos */
+.vagas-talentos {
+    display: flex;
+    flex-direction: column;
+}
+
+.vagas-talentos-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+.banner-apresentacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 12px;
+    color: var(--cor-destaque);
+    font-weight: 500;
+
+    width: 10em;
+    height: 2em;
+
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+}
+
+.banner-titulo {
+    color: var(--cor-titulo);
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.banner-texto {
+    color: var(--cor-texto);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.imagem-pessoas {
+    padding: 5em;
+}
+
+/* vagas abertas */
+.vagas-abertas {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    justify-content: left;
+}
+
+.vagas-area {
+    color: var(--cor-titulo);
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 6em;
+    margin: 0 auto;
+}
+
+.vagas-container {
+    border: 0.2em solid rgba(234, 236, 240, 0.5);
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+.vagas-vaga {
+    color: var(--cor-titulo);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.vagas-detalhes {
+    color: var(--cor-texto);
+    font-weight: 400;
+    font-size: 16px;
+}

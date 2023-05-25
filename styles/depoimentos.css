@@ -1,0 +1,43 @@
+.depoimentos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    margin-bottom: 3em;
+    border: 1px solid white;
+    padding: 2em;
+    border-width: 3rem;
+    border-radius: 16px;
+    background-color: rgba(196, 25, 25, 0.03);
+    margin: 0 auto;
+}
+
+.depoimentos-titulo {
+    color: var(--cor-destaque);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.depoimentos-texto {
+    color: var(--cor-titulo);
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.depoimentos-imagem {
+    width: 5em;
+}
+
+.depoimentos-nome {
+    color: var(--cor-titulo);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.depoimentos-cargo {
+    color: var(--cor-texto);
+    font-size: 14px;
+    font-weight: 400;
+}
